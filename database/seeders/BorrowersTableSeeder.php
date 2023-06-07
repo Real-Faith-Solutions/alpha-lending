@@ -15,6 +15,7 @@ class BorrowersTableSeeder extends Seeder
     public function run()
     {
         Borrower::create([
+            'borrower_id' => '1',
             'last_name' => 'DE SANTOS',
             'first_name' => 'TEODORO ROMMEL',
             'middle_name' => 'MARCA',
@@ -31,6 +32,7 @@ class BorrowersTableSeeder extends Seeder
         ]);
 
         Borrower::create([
+            'borrower_id' => '2',
             'last_name' => 'DAGALEA',
             'first_name' => 'MARITES MAY',
             'middle_name' => 'DAAROL',
